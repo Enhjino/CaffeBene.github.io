@@ -1,0 +1,197 @@
+
+.home_menu {
+      display: flex;
+      justify-content: center;
+}
+
+.home_menu ul {
+      display: flex;
+      flex-direction: row;
+}
+
+.home_menu li {
+      padding: 20px;
+}
+
+.home_menu_item {
+      padding: 50px;
+}
+
+.m1_photo {
+      background-image: url("/images/Menu/home_page/special.webp");
+      background-size: cover;
+      background-position: center;
+      width: 240px;
+      height: 170px;
+      box-sizing: border-box;
+      border: 1px solid #ddb892;
+      border-radius: 12px;
+      position: relative;
+      cursor: pointer;
+}
+
+.m2_photo {
+      background-image: url("/images/Menu/home_page/coffee.webp");
+      background-size: cover;
+      background-position: center;
+      width: 240px;
+      height: 170px;
+      box-sizing: border-box;
+      border: 1px solid #ddb892;
+      border-radius: 12px;
+      position: relative;
+      cursor: pointer;
+}
+
+.m3_photo {
+      background-image: url("/images/Menu/home_page/beverages.webp");
+      background-size: cover;
+      background-position: center;
+      width: 240px;
+      height: 170px;
+      box-sizing: border-box;
+      border: 1px solid #ddb892;
+      border-radius: 12px;
+      position: relative;
+      cursor: pointer;
+}
+
+.m4_photo {
+      background-image: url("/images/Menu/home_page/dessert.webp");
+      background-size: cover;
+      background-position: center;
+      width: 240px;
+      height: 170px;
+      box-sizing: border-box;
+      border: 1px solid #ddb892;
+      border-radius: 12px;
+      position: relative;
+      cursor: pointer;
+}
+
+.home_menu_item h4 {
+      position: absolute;
+      top: 0%;
+      left: 5%;
+      font-size: 20px;
+      line-height: 35px;
+      z-index: 1;
+}
+
+.home_new_products {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 50px 0;
+}
+
+.new_product_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      position: relative;
+      width: 12rem;
+      height: 19rem;
+      margin: 15px;
+      box-sizing: border-box;
+      float: center;
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid #ddb892;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 14px 28-x rgba(0, 0, 0, 0.25);
+      z-index: 10;
+}
+
+.new_product_item img {
+      width: 12rem;
+      height: 200px;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+}
+
+.new_product_item h3 {
+      text-align: center;
+      float: inline-end;
+      font-size: 16px;
+}
+
+.new_product_item:hover {
+      transform: translate(0px, -8px);
+}
+
+.canvas {
+      display: flex;
+      justify-content: center;
+      background-color: lightblue;
+      width: 68rem;
+      height: 44rem;
+}
+
+section {
+      display: flex;
+      justify-content: center;
+}
+
+.parent {
+      display: grid;
+      grid-template-columns: repeat(11, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      grid-template-rows: repeat(7, 1fr);
+      width: 68rem;
+      height: 44rem;
+}
+
+.parent div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+}
+
+.parent .div6 img {
+      max-width: 100%;
+      max-height: auto;
+      object-fit: cover;
+}
+
+.parent .div3 img {
+      max-width: 100%;
+      max-height: auto;
+      object-fit: fill;
+}
+
+.parent .div2 img {
+      max-width: auto;
+      max-height: 100%;
+      object-fit: fill;
+}
+
+.div1 {
+      grid-area: 2 / 1 / 8 / 5;
+}
+
+.div2 {
+      grid-area: 1 / 1 / 2 / 5;
+}
+
+.div3 {
+      grid-area: 1 / 5 / 4 / 8;
+}
+
+.div4 {
+      grid-area: 1 / 8 / 4 / 12;
+}
+
+.div5 {
+      grid-area: 4 / 11 / 8 / 12;
+}
+
+.div6 {
+      grid-area: 4 / 5 / 8 / 11;
+}

@@ -1,0 +1,21 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Kurale';
+      font-style: normal;
+      font-weight: 400;
+      color: #745F50;
+      box-sizing: border-box;
+}
+body {
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
+      margin:  0 auto;
+}
+a{
+      text-decoration: none;
+}
+li{
+      list-style: none;
+}
