@@ -1,4 +1,4 @@
-div {
+/* .sub-top {
       display: flex;
       justify-content: center; 
       align-items: center;
@@ -6,7 +6,8 @@ div {
 
 .sub-visuals {
       object-fit: cover;
-}
+      height: 20%;
+} */
 
 .sub-contents {
       text-align: center;
