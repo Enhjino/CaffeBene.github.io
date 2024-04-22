@@ -10,8 +10,9 @@
 
 :root{
       --font-default-family:'Kurale';
-      --color-brown-1:#e1cfbd;
-      --color-brown-2:#d1dfdd;
+      --color-brown-1 :#745F50;
+      --color-brown-2 :#e1cfbd;
+      --color-brown-3 :#d1dfdd;
 
 
       --color-bg-default:var(--color-white-2);
