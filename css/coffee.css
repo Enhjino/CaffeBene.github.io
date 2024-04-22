@@ -1,4 +1,6 @@
-&ul {
+.menu-list-items {
+    overflow: hidden;
+    margin-top: 2em;
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -7,24 +9,6 @@
     margin-inline-end: 0px;
     padding-inline-start: 2em;
 }
-.menu-list-item .m-photo {
-    padding: 2em 1em 0;
-    height: 15em;
-}
-.menu-list-item .m-name{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:5em;
-    padding:0 1em;
-    --color:var(--color-grey-1);
-    text-align:center
-}
-.menu-list-items {
-    overflow: hidden;
-    margin-top: 2em;
-}
-
 .menu-list-items li{
     float:left;
     width:16em;
@@ -39,6 +23,19 @@
     background:var(--color-white-2);
     box-sizing: border-box;
     border: var(--color-white-2);
+}
+.menu-list-item .m-photo {
+    padding: 2em 1em 0;
+    height: 15em;
+}
+.menu-list-item .m-name{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:5em;
+    padding:0 1em;
+    --color:var(--color-grey-1);
+    text-align:center
 }
 .menu-list-item .m-photo img{
     max-width:100%;
