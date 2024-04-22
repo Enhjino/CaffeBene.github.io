@@ -1,65 +1,51 @@
-.menu-list-item .m-photo {
-    padding: 30px 15px 0;
-    height: 229px;
-}
-ul, ol, li {
-    list-style: none;
-}
-div
-{
-  display: block;
-}
-.menu-list-items {
-    overflow: hidden;
-    margin-top: 40px;
-}
-ul {
+&ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 2em;
 }
-.menu-list-items{
+.menu-list-item .m-photo {
+    padding: 2em 1em 0;
+    height: 15em;
+}
+.menu-list-item .m-name{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:5em;
+    padding:0 1em;
+    --color:var(--color-grey-1);
+    text-align:center
+}
+.menu-list-items {
     overflow: hidden;
-    margin-top:40px
+    margin-top: 2em;
 }
+
 .menu-list-items li{
     float:left;
-    width:260px;
-    margin-right:50px;
-    margin-bottom:60px
+    width:16em;
+    margin-right:3em;
+    margin-bottom:4em;
 }
 .menu-list-items li:nth-child(4n){
     margin-right:0;
 }
 .menu-list-item{
     display:block;
-    background:#f2f2f2;
+    background:var(--color-white-2);
     box-sizing: border-box;
-    border:2px solid #f2f2f2
-}
-.menu-list-item .m-photo{
-    padding:30px 15px 0;
-    height:229px
+    border: var(--color-white-2);
 }
 .menu-list-item .m-photo img{
     max-width:100%;
-    height:229px
-}
-.menu-list-item .m-name{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:90px;
-    padding:0 15px;
-    color:#3a466a;
-    text-align:center
+    height:16em;
 }
 .menu-list-item:hover{
-    border:2px solid #3a466a;
+    border: solid var(--color-grey-1);
 }
 .menu-list-item:hover .m-name{
     font-weight:700;
