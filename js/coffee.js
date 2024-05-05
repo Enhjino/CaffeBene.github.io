@@ -1,38 +1,6 @@
-// import Product from './product.js';
-// //URL zadlah
-
-// console.log("Search:", document.location.search);
-
-// const usp = new URLSearchParams(document.location.search);
-// const category = usp.get("category");
-// const type = usp.get("type");
-
-// console.log("Category:", category);
-// console.log("Type:", type);
-
-
-
-// fetch("/json/product.json")
-//     .then(result => result.json())
-//     .then(resultObj => { 
-
-//         const rawCoffee = resultObj.products;
-//         const coffee = rawCoffee.filter(product => product.type == type)
-//         const coffeeHTMLArray = coffee.map(productObj =>
-//         { 
-//             const product = new Product(productObj);
-//             return product.Render();
-//         })
-//         const coffeeHTML = coffeeHTMLArray.reduce((prev, current) => prev + current);
-
-//         document.getElementById("coffee").innerHTML = coffeeHTML;
-// })
-
 import Product from './product.js';
 
-let allProducts = []; // Variable to store all products initially
-
-// Function to fetch all products from the JSON file
+let allProducts = []; 
 function fetchAllProducts() {
     return fetch("/json/product.json")
         .then(response => response.json())
@@ -46,7 +14,6 @@ function fetchAllProducts() {
         });
 }
 
-// Function to render products based on applied filters
 function renderFilteredProducts() {
     const checkedTypes = Array.from(document.querySelectorAll('input[name="type"]:checked')).map(input => input.value);
     

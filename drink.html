@@ -25,6 +25,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/root.css">
   <link rel="stylesheet" href="css/drink.css">
+  <link rel="stylesheet" href="css/coffee.css">
+  <script type="module" src="/js/drink.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <title>Drink</title>
 </head>
@@ -74,22 +76,18 @@
       
     </section>
     <section class="sub-contents">
-      <div class="menu-category">
-        <span class="checkbox"><input type="checkbox" /><label for="category">Латте</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Фрапено</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Шүүс ба Аде</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Цай</label></span>
-      </div>
-      <ul class="product-list">
-        <li>
-          <div class="coffee">
-            <img src="images/Menu/Coffee/coffee_hot_1.png" alt="special_menu" />
-            <h3>
-              Кофе
-            </h3>
-          </div>
-        </li>
-      </ul>
+      <form>
+        <input type="checkbox" id="type3" name="type" value="latte">
+        <label for="type3">Латте</label>
+        <input type="checkbox" id="type4" name="type" value="frappeno">
+        <label for="type4">Фрапено</label>
+        <input type="checkbox" id="type5" name="type" value="juice-ade">
+        <label for="type5">Шүүс ба Аде</label>
+        <input type="checkbox" id="type6" name="type" value="tea">
+        <label for="type6">Цай</label>
+    </form>
+      <section id="drink" class="menu-list-items">
+      </section>
     </section>
   </main>
   <footer>

@@ -24,6 +24,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/dessert.css">
+  <link rel="stylesheet" href="css/coffee.css">
+  <script type="module" src="/js/dessert.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <title>Dessert</title>
 </head>
@@ -70,24 +73,22 @@
       </div>
     </section>
     <section class="sub-contents">
-      <div class="menu-category">
-        <span class="checkbox"><input type="checkbox" /><label for="category">Нарийн боов</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Бялуу</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Сэндвич</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Багель</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Гелато ба Аффогато</label></span>
-        <span class="checkbox"><input type="checkbox" /><label for="category">Хуссан мөс</label></span>
-      </div>
-      <ul class="product-list">
-        <li>
-          <div class="coffee">
-            <img src="images/Menu/Coffee/coffee_hot_1.png" alt="special_menu" />
-            <h3>
-              Кофе
-            </h3>
-          </div>
-        </li>
-      </ul>
+      <form>
+        <input type="checkbox" id="type7" name="type" value="bakery">
+        <label for="type7">Нарийн боов</label>
+        <input type="checkbox" id="type8" name="type" value="cake">
+        <label for="type8">Бялуу</label>
+        <input type="checkbox" id="type9" name="type" value="sandwich">
+        <label for="type9">Сэндвич</label>
+        <input type="checkbox" id="type10" name="type" value="bagel">
+        <label for="type10">Багель</label>
+        <input type="checkbox" id="type11" name="type" value="gelato">
+        <label for="type11">Гелато ба Аффогато</label>
+        <input type="checkbox" id="type12" name="type" value="bingsu">
+        <label for="type12">Хуссан мөс</label>
+    </form>
+      <section id="dessert" class="menu-list-items">
+      </section>
     </section>
   </main>
   <footer>
