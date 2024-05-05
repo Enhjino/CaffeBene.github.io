@@ -4,7 +4,7 @@
       font-family: var(--font-default-family);
       font-style: normal;
       font-weight: 400;
-      color: #745F50;
+      color: var(--color-brown-1);
       box-sizing: border-box;
 }
 
@@ -15,7 +15,6 @@
       --color-white-1: #fff;
       --color-white-2: #d1dfdd --color-font-default:var(--color-brown-1);
       --color-text-title: var(--color-white-1);
-
 }
 
 body {
@@ -38,7 +37,7 @@ header {
       position: fixed;
       width: 100%;
       height: 5rem;
-      background-color: white;
+      background-color: var(--color-white-1);
       align-items: center;
       justify-content: space-between;
       z-index: 1000;

@@ -1,0 +1,334 @@
+{
+      "products": [
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Бэнэ Крем Латте",
+                  "img": "/images/Menu/Coffee/coffee_1.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Хазелнат Латте (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_2.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Хазелнат Латте (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_3.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Хар Кунжутын Крем Латте",
+                  "img": "/images/Menu/Coffee/coffee_4.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Овъёостой Латте (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_5.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Овъёостой Латте (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_6.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Brown Sugar Bubble Latte",
+                  "img": "/images/Menu/Coffee/coffee_7.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Хазелнат Латте",
+                  "img": "/images/Menu/Coffee/coffee_8.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Хүйтэн Brew Карамель Маккиато",
+                  "img": "/images/Menu/Coffee/coffee_9.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Хүйтэн Brew Латте",
+                  "img": "/images/Menu/Coffee/coffee_10.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Хүйтэн Brew",
+                  "img": "/images/Menu/Coffee/coffee_11.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Лилак Ванилин Буурцаг Латте",
+                  "img": "/images/Menu/Coffee/coffee_12.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Крем Чиз Хавтгай Цагаан (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_13.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Крем Чиз Хавтгай Цагаан (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_14.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Brown Sugar Bubble Латте кофеин агуулсан",
+                  "img": "/images/Menu/Coffee/coffee_15.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Далгона Латте (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_16.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Далгона Латте (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_17.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Эспрессо (ЗӨВХӨН ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_18.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Американо (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_19.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Americano (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_20.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Кафе Латте (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_21.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Кафе Латте (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_22.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Капучино (ЗӨВХӨН ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_23.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Ваниль латте (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_24.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Ваниль латте (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_25.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Кафе Мока (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_26.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Кафе Мока (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_27.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Карамель Маккиато (ХАЛУУН)",
+                  "img": "/images/Menu/Coffee/coffee_28.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "iced",
+                  "title": "Карамель Маккиато (ICED)",
+                  "img": "/images/Menu/Coffee/coffee_29.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            },
+            {
+                  "category": "coffee",
+                  "type": "hot",
+                  "title": "Карамель Латте",
+                  "img": "/images/Menu/Coffee/coffee_30.png",
+                  "price": {
+                        "small": 8400,
+                        "medium": 9600,
+                        "large": 10800
+                  }
+            }
+      ]
+}
