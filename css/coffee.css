@@ -32,7 +32,7 @@
     height: 200px;
     text-align: center;
     margin: 0 auto;
-    display: block;
+    display: block;1
 }
 
 .new_product_item h3 {
@@ -176,6 +176,7 @@
   
   .new_product_item .product_title {
     margin: 0;
+    font-size: 14px;
   }
   .new_product_item:hover .product_image .product_title {
     visibility: hidden;

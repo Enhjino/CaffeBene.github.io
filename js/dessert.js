@@ -5,12 +5,12 @@ function fetchAllProducts() {
     return fetch("/json/product.json")
         .then(response => response.json())
         .then(data => {
-            allProducts = data.products; // Store all products
+            allProducts = data.products; 
             return allProducts;
         })
         .catch(error => {
             console.error('Error fetching products:', error);
-            return []; // Return an empty array in case of error
+            return []; 
         });
 }
 
@@ -18,17 +18,15 @@ function renderFilteredProducts() {
     const checkedTypes = Array.from(document.querySelectorAll('input[name="type"]:checked')).map(input => input.value);
     
     const dessertContainer = document.getElementById("dessert");
-    dessertContainer.innerHTML = ""; // Clear the container before rendering
+    dessertContainer.innerHTML = ""; 
     
     if (checkedTypes.length === 0) {
-        // If no filter is checked, render all products
         allProducts.forEach(productData => {
             const product = new Product(productData);
             const productHTML = product.Render();
             dessertContainer.innerHTML += productHTML;
         });
     } else {
-        // If filters are checked, render filtered products
         const filteredProducts = allProducts.filter(product => checkedTypes.includes(product.type));
         filteredProducts.forEach(productData => {
             const product = new Product(productData);
@@ -38,13 +36,11 @@ function renderFilteredProducts() {
     }
 }
 
-// Load all products and render them when the page loads
 window.addEventListener('load', () => {
     fetchAllProducts()
-        .then(() => renderFilteredProducts()); // Initially render all products
+        .then(() => renderFilteredProducts()); 
 });
 
-// Add event listeners to checkboxes for filtering
 document.querySelectorAll('input[name="type"]').forEach(checkbox => {
     checkbox.addEventListener('change', renderFilteredProducts);
 });
