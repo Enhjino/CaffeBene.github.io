@@ -1,6 +1,7 @@
 .products-menu{
       padding-top: 5rem;
 }
+
 .menu-select{
       align-items: center;
       display: flex;
@@ -8,11 +9,13 @@
       justify-content: center;
       position: relative;
 }
+
 .menu-select {
       height: 100%;
       width: 100%;
       object-fit: cover;
 }
+
 .menu-text {
       position: absolute;
       width: 18rem;
