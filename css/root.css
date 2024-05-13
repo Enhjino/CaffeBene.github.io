@@ -28,9 +28,10 @@
 
       /* sizes */
       --margin-size-1: 1rem;
-      --margin-size-2: 3rem; /* 48px */
+      --margin-size-2: 2rem; 
+      --margin-size-3: 3rem;/* 48px */
       --padding-size-1: 1rem;
-      --padding-size-2: 1rem;
+      --padding-size-2: 1.5rem;
       --padding-size-3: 3rem;
       --default-border-radius: 1rem;
       --default-border-style: 1px solid var(--color-brown-1);
@@ -39,6 +40,7 @@
       --header-bg-color: var(--color-white);
       --header-bg-color-hover: var(--color-brown-2);
       --header-height: 5rem; /* 80px */
+      --header-line-height: 1.875rem;
       --header-font-size: var(--font-size-2);
       --header-font-color: var(--color-brown-1);
       --header-font-color-hover: var(--color-brown-1);
@@ -55,7 +57,7 @@
       --sub-top-bc-height : 2.5rem;
       --sub-top-img-height: 10rem;
       --sub-top-font-size: var(--font-size-3);
-      --sub-top-font-color : var(var(--color-white));
+      --sub-top-font-color : var(--color-white);
 
       /* sub-content */
       

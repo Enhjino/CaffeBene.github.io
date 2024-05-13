@@ -8,9 +8,9 @@ class HeaderComponent extends HTMLElement {
                 <img src="images/Background/caffebene_logo.png" alt="Caffe Bene Logo" width="100" />
               </a>
             </section>
-            <section>
+            <section class="header-right">
               <nav>
-                <ul>
+                <ul id= "menu-items">
                   <li>
                     <a href="product.html">Бүтээгдэхүүн</a>
                     <ul>
@@ -27,6 +27,7 @@ class HeaderComponent extends HTMLElement {
                   </li>
                   <li><a href="contact.html">Холбоо барих</a></li>
                 </ul>
+                <button class = "menu-icon" id="menu">Цэс</button>
               </nav>
             </section>
         
