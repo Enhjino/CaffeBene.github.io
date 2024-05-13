@@ -30,7 +30,8 @@
       --margin-size-1: 1rem;
       --margin-size-2: 3rem; /* 48px */
       --padding-size-1: 1rem;
-      --padding-size-2: 3rem;
+      --padding-size-2: 1rem;
+      --padding-size-3: 3rem;
       --default-border-radius: 1rem;
       --default-border-style: 1px solid var(--color-brown-1);
 

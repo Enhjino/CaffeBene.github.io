@@ -1,4 +1,4 @@
-import Product from './product.js';
+import Product from '../modules/product.js';
 
 let allProducts = []; 
 function fetchAllProducts() {

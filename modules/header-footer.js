@@ -1,72 +1,16 @@
 class HeaderComponent extends HTMLElement {
-      constructor() {
-        super();
-        this.innerHTML = ` <style>
-            header {
-                  display: flex;
-                  position: fixed;
-                  width: 100%;
-                  height: 5rem;
-                  background-color: var(--color-white);
-                  align-items: center;
-                  justify-content: space-between;
-                  z-index: 1000;
-            
-                  & img {
-                        height: 4rem;
-                        width: auto;
-                        margin-left: 3rem;
-                  }
-            
-            }
-            
-            header nav {
-                  margin-right: 3rem;
-            
-                  & li {
-                        position: relative;
-                        background-color: white;
-                        float: left;
-                  }
-            }
-            
-            header nav ul li a {
-                  font-size: 20px;
-                  line-height: 30px;
-                  padding: 0 25px;
-                  width: auto;
-                  display: block;
-            }
-            
-            header nav ul li a:hover {
-                  background-color: #e1cfbd;
-                  color: #745f50;
-            }
-            
-            header nav ul li ul {
-                  position: absolute;
-                  width: auto;
-                  display: none;
-            }
-            
-            header nav ul li ul li {
-                  width: 100%;
-            }
-            
-            header nav ul li:hover>ul {
-                  display: block;
-            }
-           
-            </style>
+  constructor() {
+    super();
+    this.innerHTML = ` 
             <header>
             <section>
               <a href="index.html">
                 <img src="images/Background/caffebene_logo.png" alt="Caffe Bene Logo" width="100" />
               </a>
             </section>
-            <section class="header-right">
+            <section>
               <nav>
-                <ul id="menu-items">
+                <ul>
                   <li>
                     <a href="product.html">Бүтээгдэхүүн</a>
                     <ul>
@@ -83,7 +27,6 @@ class HeaderComponent extends HTMLElement {
                   </li>
                   <li><a href="contact.html">Холбоо барих</a></li>
                 </ul>
-                <button class="menu-icon" id="menu">Цэс</button>
               </nav>
             </section>
         
@@ -95,54 +38,9 @@ class HeaderComponent extends HTMLElement {
 }
 
 class FooterComponent extends HTMLElement {
-      constructor() {
-        super();
-        this.innerHTML = `<style>
-    footer {
-      height: 6rem;
-      z-index: 1000;
-}
-
-footer img {
-      height: 4rem;
-      width: auto;
-}
-
-footer ul li {
-      display: inline-block;
-      margin: 40px;
-}
-
-.arrow {
-      display: inline-block;
-      width: 15px;
-      height: 15px;
-      border-top: 2px solid #745F50;
-      border-right: 2px solid #745F50;
-}
-
-.bottom {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      padding-top: 1rem;
-}
-
-address a {
-      padding-right: 1.5rem;
-}
-
-.arrow-top {
-      transform: rotate(-45deg);
-      /* padding: 2rem;
-      float: right; */
-}
-
-.hr.solid {
-      border-top: 1px solid #745F50;
-}
-            </style>
+  constructor() {
+    super();
+    this.innerHTML = `
             <footer>
     <a href="#"><span class="arrow arrow-top"></span></a>
     <hr class="solid" />
