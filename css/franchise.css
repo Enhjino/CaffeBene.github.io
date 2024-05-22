@@ -1,0 +1,27 @@
+#form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & input {
+        max-width: 520px;
+        width: 520px;
+        height: 35px;
+        border: 1px solid #99582A;
+        border-radius: 10px;
+        background-color: rgba(116, 95, 80, 0.1);
+        padding: 10px;
+        color:var(--color-brown-1);
+    }   
+}
+&button{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
