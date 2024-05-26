@@ -1,9 +1,9 @@
 :root {
       --main-width: 100%;
-      --main-_height: 100%;
+      --main-height: 100%;
       --main-margin: 0;
       --main-padding: 0;
-      --defualt-list-style: none;
+      --default-list-style: none;
       --default-text-decoration: none;
 
 
@@ -11,9 +11,10 @@
       --color-brown-1: #745F50;
       --color-brown-2: #e1cfbd;
       --color-black: #000;
-      --color-white: #FFFFFF;
+      --color-dark :#555;
+      --color-white: #FFF;
       --color-font-default: var(--color-brown-1);
-      --color-text-title: var(--color-white-1);
+      --color-text-title: var(--color-white);
       --form-bg-color: rgba(116, 95, 80, 0.1);
 
       /* font styles */
@@ -33,6 +34,10 @@
       --padding-size-1: 1rem;
       --padding-size-2: 1.5rem;
       --padding-size-3: 3rem;
+      --padding-default : 4rem;
+      --form-width : 25rem;
+      --line-height : 2rem;
+      
       --default-border-radius: 1rem;
       --default-border-style: 1px solid var(--color-brown-1);
 
@@ -53,7 +58,7 @@
       --address-padding: 1.5rem;
 
       /* sub-top */
-      --sub-top-padding : 5rem;
+      --sub-top-margin : 5rem;
       --sub-top-bc-height : 2.5rem;
       --sub-top-img-height: 10rem;
       --sub-top-font-size: var(--font-size-3);

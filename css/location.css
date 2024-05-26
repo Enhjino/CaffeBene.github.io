@@ -1,0 +1,93 @@
+.sub-contents {
+      position: relative;
+      width: var(--main-width);
+      height: 100vh;
+      overflow: hidden;
+
+      #store-map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: var(--main-width);
+            height: var(--main-height);
+            z-index: 1;
+      }
+
+      .store-search {
+            position: relative;
+            z-index: 2;
+            width: 400px;
+            max-height: 90vh;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: var(--default-border-style);
+
+            .search-top {
+                  text-align: left;
+                  background: var(--color-brown-1);
+                  padding: var(--padding-size-1);
+
+                  h3 {
+                        color: var(--color-white);
+                  }
+            }
+
+            .search-body {
+                  overflow-y: auto;
+                  height: 60vh;
+                  max-width: 900px;
+                  background: var(--color-white);
+                  border: var(--default-border-style);
+                  border-width: 1px 0;
+                  padding: var(--padding-size-2);
+                  text-align: left;
+
+                  p {
+                        margin: 5px 0;
+                        color: var(--color-dark);
+                  }
+            }
+
+            .search-input input {
+                  flex: 1;
+                  border: var(--default-border-style);
+                  width: 16rem;
+            }
+
+            .search-input button {
+                  padding: var(--padding-size-1) var(--padding-size-2);
+                  background-color: var(--color-brown-1);
+                  color: var(--color-white);
+                  border: none;
+                  border-radius: var(--default-border-radius);
+                  cursor: pointer;
+
+                  &:hover {
+                        background-color: var(--color-brown-2);
+                  }
+            }
+      }
+}
+
+iframe {
+      width: var(--main-width);
+      height: var(--main-height);
+      border: 0;
+}
+
+#storedatalist {
+      list-style: none;
+      padding: var(--main-padding);
+}
+
+#storedatalist li {
+      align-items: start;
+      border-bottom: 2px solid var(--color-brown-1);
+
+      h4 a {
+            color: var(--color-brown-1);
+
+            &:hover {
+                  text-decoration: underline;
+            }
+      }
+}

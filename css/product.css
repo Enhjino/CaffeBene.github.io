@@ -29,9 +29,122 @@
   }
   .drink {
       top: 50%;
-      left: 70%;
+      right:  15%;
   }
   .coffee, .dessert {
       top: 50%;
       left: 15%;
   }
+  @keyframes slideInLeft {
+      from {
+          transform: translateX(-100%);
+          opacity: 0;
+      }
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+  
+  @keyframes slideInRight {
+      from {
+          transform: translateX(100%);
+          opacity: 0;
+      }
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+  
+  .menu-select {
+      opacity: 0;
+      transition: opacity 0.5s ease-out;
+  }
+  
+  .menu-select.slide-in-left {
+      animation: slideInLeft 1s forwards;
+  }
+  
+  .menu-select.slide-in-right {
+      animation: slideInRight 1s forwards;
+  }
+
+  /* .products-menu {
+      padding-top: 5rem;
+  }
+  
+  .menu-select {
+      align-items: center;
+      display: flex;
+      height: calc(100vh - 5rem);
+      justify-content: center;
+      position: relative;
+      opacity: 0;
+      transition: opacity 0.5s ease-out;
+      transform: translateX(-100%);
+  }
+  
+  .menu-select:target {
+      opacity: 1;
+      transform: translateX(0);
+  }
+  
+  .menu-select img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .menu-text {
+      position: absolute;
+      width: 18rem;
+      border: 2px solid #745F50;
+      border-radius: 64px;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+  }
+  
+  .drink {
+      top: 50%;
+      right: 15%;
+  }
+  
+  .coffee, .dessert {
+      top: 50%;
+      left: 15%;
+  }
+  
+  @keyframes slideInLeft {
+      from {
+          transform: translateX(-100%);
+          opacity: 0;
+      }
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+  
+  @keyframes slideInRight {
+      from {
+          transform: translateX(100%);
+          opacity: 0;
+      }
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+  
+  .menu-select.slide-left {
+      animation: slideInLeft 1s forwards;
+  }
+  
+  .menu-select.slide-right {
+      animation: slideInRight 1s forwards;
+  }
+   */

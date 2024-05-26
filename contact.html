@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/head_footer.css" />
-  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/form.css">
   <script src="modules/header-footer.js" defer></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <title>Contact</title>
@@ -34,14 +34,14 @@
   <header-component></header-component>
   <main>
     <section class="sub-top">
-      <div class="breadcrumbs">
-        <a href="index.html"><i class="fas fa-home"></i></a> &gt; Холбоо барих
-      </div>
       <div class="sub-visual">
         <img src="images/Background/contact.jpg" alt="contact Background image" class="cnt_img" />
         <div class="txt">
           <p>БИДЭНТЭЙ ХОЛБОГДОХ</p>
         </div>
+      </div>
+      <div class="breadcrumbs">
+        <a href="index.html"><i class="fas fa-home"></i></a> &gt; Холбоо барих
       </div>
     </section>
     <section class="sub-contents">
@@ -51,22 +51,25 @@
         <a href="mailto: caffebene@caffebene.mn">caffebene@caffebene.mn</a>
       </h3>
       <h3>Утас: <a href="tel: +976 7555 3000">+976 7555 3000</a></h3>
-      <form action="/submit_form.php" method="post">
-        <label for="name">Нэр*</label><br />
-        <input type="text" id="name" name="name" required /><br />
-        <label for="email">И-Майл хаяг*</label><br />
-        <input type="email" id="email" name="email" required /><br />
-        <label for="choose">Сэдэв*</label><br />
-        <select id="choose" name="choose" required>
-          <option value="Subject 1">Санал хүсэлт</option>
-          <option value="Subject 2">Талархал</option>
-          <option value="Subject 3">Гомдол</option>
-        </select><br />
-
-        <label for="message">Мессеж*</label><br />
-        <textarea id="message" name="message" rows="4" required></textarea><br />
+      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <section class="contact-form">
+          <input type="hidden" name="access_key" value="ceee74b8-3d4f-4c0a-9d91-6373aaea499e" />
+          <label for="name">Нэр</label><br />
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">И-Майл хаяг</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <label for="choose">Сэдэв</label><br />
+          <select id="choose" name="choose" required>
+            <option value="Subject 1">Санал хүсэлт</option>
+            <option value="Subject 2">Талархал</option>
+            <option value="Subject 3">Гомдол</option>
+          </select><br />
+          <label for="message">Мессеж</label><br />
+          <textarea id="message" name="message" rows="4" required></textarea><br />
+        </section>
+        <button type="submit">Илгээх</button>
       </form>
-      <button type="submit">Илгээх</button>
+
       <div class="social-icon">
         <div class="social-icons">
           <a href="https://www.instagram.com/caffebenemn/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>

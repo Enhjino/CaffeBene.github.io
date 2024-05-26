@@ -1,0 +1,104 @@
+.sub-contents {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--padding-size-2);
+}
+
+.faq-list {
+      list-style: none;
+      padding: 0;
+      width: 90vh;
+}
+
+.faq-list li {
+      margin-bottom: var(--margin-size-1);
+      padding: var(--padding-size-1);
+      border-bottom: var(--default-border-style);
+}
+
+.faq-list li button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+}
+
+.faq-list li .coffee-icon {
+      margin-right: 10px;
+}
+
+.faq-list li .question {
+      font-weight: bold;
+}
+
+.a-box {
+      display: none;
+      width: 80%;
+      margin: auto;
+}
+
+.a-box p {
+      margin: 0;
+
+}
+
+.icon-cell {
+      margin-right: 10px;
+}
+
+.icon-answer span {
+      font-size: 12px;
+}
+
+.faq-list li.active .a-box {
+      display: flex
+}
+
+.page-tab {
+      margin: var(--margin-size-2) 0;
+      background-color: var(--color-brown-1);
+      border-bottom: 2px solid var(--color-brown-1);
+}
+
+.tab {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: var(--default-list-style);
+      padding: var(--main-padding);
+      margin: var(--main-margin);
+}
+
+.tab li {
+      flex: 1;
+      text-align: center;
+      border-right: 1px solid var(--color-brown-1);
+}
+
+.tab li:last-child {
+      border-right: none;
+}
+
+.tab a {
+      display: block;
+      padding: var(--padding-size-2) var(--padding-size-1);
+      text-decoration: var(--default-text-decoration);
+      color: var(--color-brown-1);
+      font-weight: var(--font-weight-2);
+      background-color: var(--color-white);
+      transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab a:hover,
+.tab li.on a {
+      background-color: var(--color-brown-1);
+      color: var(--color-white);
+}
+
+.col3 li {
+      width: calc(33.333% - 1px);
+      /* Adjust for border-right */
+}

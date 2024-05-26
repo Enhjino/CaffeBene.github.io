@@ -42,10 +42,10 @@ class FooterComponent extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-            <footer>
     <a href="#"><span class="arrow arrow-top"></span></a>
     <hr class="solid" />
-    <section class="bottom">
+            <footer>
+  
       <a href="index.html">
         <img src="images/Background/caffebene_logo.png" alt="Caffe Bene Logo" width="100" />
       </a>
@@ -83,7 +83,6 @@ class FooterComponent extends HTMLElement {
           </svg>
         </a>
       </address>
-    </section>
   </footer> `;
   }
 }

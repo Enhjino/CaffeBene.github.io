@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/head_footer.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/faq.css">
   <script src="modules/header-footer.js" defer></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <title>Franchise</title>
@@ -33,7 +35,7 @@
   <header-component></header-component>
   <main>
     <section class="sub-top">
-      <div class="breadcrumbs"><a href="index.html"><i class="fas fa-home"></i></a> &gt; Франчайз</div>
+      <div class="breadcrumbs"><a href="index.html"><i class="fas fa-home"></i></a>&gt; Франчайз</div>
       <div class="sub-visual">
         <img src="images/Background/franchise.jpg" alt="contact Background image" class="cnt_img" />
         <div class="txt">
@@ -43,13 +45,15 @@
     </section>
     <section class="page-tab">
       <ul class="tab col3 contact-tab">
-        <li class="on"><a href="process.html">Франчайз Процесс</a></li>
-        <li><a href="franchise.html">Франчайз болох</a></li>
+        <li ><a href="process.html">Франчайз Процесс</a></li>
+        <li class="on"><a href="franchise.html">Франчайз болох</a></li>
         <li><a href="faq.html">Түгээмэл Асуултууд</a></li>
       </ul>
     </section>
     <section class="sub-contents">
-      <form id="form" name="form" method="post">
+      <form id="franchise-form" name="form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="ceee74b8-3d4f-4c0a-9d91-6373aaea499e" />
+        <div class="form-wrapper">
         <section class="personal-form">
           <h3>Хувийн мэдээлэл </h3>
           <label for="name">Овог Нэр</label><br />
@@ -72,12 +76,11 @@
           <label for="message">Нэмэлт мэдээлэл</label><br />
           <input type="message" id="message" name="message" required /><br />
         </section>
+        </div>
+        <button type="submit">Илгээх</button>
       </form>
-      <button type="submit">Илгээх</button>
     </section>
-
   </main>
-  <footer-company></footer-company>
+  <footer-component></footer-component>
 </body>
-
 </html>

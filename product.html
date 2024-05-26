@@ -25,6 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/head_footer.css">
   <link rel="stylesheet" href="css/product.css">
+
   <script src="modules/header-footer.js" defer></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <title>Products</title>
@@ -32,27 +33,27 @@
 
 <body>
   <header-component></header-component>
-  <hr class="solid" style="position: relative; top: 5rem;">
   <main>
     <section class="products-menu">
-      <div class="menu-select">
+      <div class="menu-select slide-left">
         <a href="special.html">
           <img src="images/Background/horizan_2.jpg" alt="special"></a>
       </div>
-      <div class="menu-select">
+      <div class="menu-select slide-right">
         <img src="images/Background/coffe_menu.jpg" alt="coffee">
         <a href="coffee.html" class="menu-text coffee">Кофе&nbsp;&rarr;</a>
       </div>
-      <div class="menu-select">
+      <div class="menu-select slide-left">
         <img src="images/Background/beverage_menu.jpg" alt="bevarage">
         <a href="drink.html" class="menu-text drink">Уух зүйл&nbsp;&rarr;</a>
       </div>
-      <div class="menu-select">
+      <div class="menu-select slide-right">
         <img src="images/Background/dessert_menu.jpg" alt="dessert">
         <a href="dessert.html" class="menu-text dessert">Дессерт&nbsp;&rarr;</a>
       </div>
     </section>
   </main>
+  <script src="js/scroll-animation.js"></script>
   <footer-component></footer-component>
 </body>
 

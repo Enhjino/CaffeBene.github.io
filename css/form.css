@@ -1,0 +1,76 @@
+body {
+    height: var(--main-height);
+    width: var(--main-width);
+    overflow-x: hidden;
+  }
+  .sub-contents {
+        
+      h1, h3 {
+          margin-bottom: var(--margin-size-1);
+          text-transform: uppercase;
+      }
+      #franchise-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+      
+      .form-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-bottom: var(--margin-size-1)
+      }
+      .contact-form, .personal-form {
+        max-width: var(--form-width);
+         min-width:  var(--form-width);;
+        width: 100%;
+        text-align: left;
+        
+      }
+      
+      input, select, textarea {
+          max-width: 100%;
+          width: 100%;
+          height: var(--line-height);
+          border: var(--default-border-style);
+          border-radius: var(--default-border-radius);
+          background-color: var(--form-bg-color);
+          padding: var(--padding-size-1);
+          color: var(--color-font-default);
+          margin-bottom: var(--margin-size-1);
+          font-family: var(--default-font-family);
+      }
+  
+      textarea {
+          height: auto;
+          resize: vertical;
+      }
+  
+      button {
+          max-width: 190px;
+          width: 100%;
+          height: 35px;
+          border: var(--default-border-style);
+          border-radius: var(--default-border-radius);
+          background-color: var(--color-brown-1);
+          color: var(--color-white);
+          cursor: pointer;
+          transition: background-color 0.3s;
+          margin-bottom: var(--margin-size-1);
+          
+          &:hover {
+              background-color: var(--color-brown-2);
+          }
+      }
+  }
+  
+  .social-icon {
+      font-size: 35px;
+      color: var(--color-black);
+  }
+  
+  .social-icons i {
+      margin-right: 15px;
+  }
