@@ -230,6 +230,7 @@ ul {
       text-align: center;
       padding: 2rem;
       background: #f9f9f9;
+      width: var(--main-width);
     }
     
     .video-container {
@@ -367,5 +368,16 @@ ul {
 
   .video-container {
     width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .sub-contents{
+    background-color: var(--color-brown-2 );
+  }
+
+  .new_product_item{
+    background-color: var(--color-white);
   }
 }

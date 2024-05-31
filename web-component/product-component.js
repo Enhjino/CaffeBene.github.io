@@ -35,66 +35,72 @@ class ProductComponent extends HTMLElement {
     this.shadowRoot.innerHTML = ` 
             <style> 
             .new_product_item {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: space-evenly;
-                  align-items: center;
-                  width: 12rem;
-                  height: 19rem;
-                  margin: 15px;
-                  box-sizing: border-box;
-                  float: center;
-                  text-align: center;
-                  box-sizing: border-box;
-                  border: 1px solid #ddb892;
-                  border-radius: 12px;
-                  cursor: pointer;
-                  box-shadow: 0 14px 28-x rgba(0, 0, 0, 0.25);
-                  z-index: 10;
-              }   
-                .new_product_item .product_image {
-                  position: relative;
-                  overflow: hidden;
-                }
-                
-                .new_product_item img {
-                  display: block;
-                  width: 100%;
-                  height: auto;
-                  transition: transform 0.3s ease;
-                }
-                
-                .new_product_item  .product_info {
-                  position: relative;
-                  overflow: hidden;
-                  width: 100%;
-                  background-color: rgba(255, 255, 255, 0.9);
-                  padding: 20px;
-                  border-radius: 5px;
-                  display: none;
-                  text-align: center;
-                }
-                
-                .new_product_item:hover .product_info {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  width: 100%;
-                  height: 100%;
-                }
-                
-                .new_product_item:hover img {
-                  transform: scale(1.05);
-                  width: 100%;
-                }
-                
-                .new_product_item .product_title {
-                  margin: 0;
-                  font-size: 14px;
-                }
-                .new_product_item:hover .product_image .product_title {
-                  visibility: hidden;
-                }
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: center;
+              width: var(--product-width);
+              height: var(--product-height);
+              margin: var(--margin-size-1);
+              box-sizing: border-box;
+              text-align: center;
+              border: var(--default-border-style);
+              border-radius: var(--default-border-radius);
+              cursor: pointer;
+              z-index: 10;
+          }
+          
+          .new_product_item .product_image {
+              position: relative;
+              overflow: hidden;
+          }
+          
+          .new_product_item img {
+              display: block;
+              width: var(--main-width);
+              height: auto;
+              transition: transform 0.3s ease;
+          }
+          
+          .new_product_item .product_info {
+              position: relative;
+              overflow: hidden;
+              background-color: var(--form-bg-color);
+              padding: var(--padding-size-1);
+              border-radius: var(--default-border-radius);
+              display: none;
+              text-align: center;
+          }
+          
+          .new_product_item:hover .product_info {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+          }
+          
+          .new_product_item:hover img {
+              transform: scale(1.05);
+          }
+          
+          .new_product_item .product_title {
+              margin: var(--main-margin);
+              font-size: var(--font-size-1);
+          }
+          
+          .new_product_item:hover .product_image .product_title {
+              visibility: hidden;
+          }
+          @media (prefers-color-scheme: dark) {
+            .new_product_item {
+              color : var( --dark-font-color);
+              border: var(--default-border-style);
+              background-color: var(--dark-bg-color);
+            }
+            .new_product_item:hover .product_info {
+              color : var( --color-white);
+              background-color: var(--dark-info-color);
+            }
+          }
             </style>
             <article class="new_product_item">
             <div class="product_image">

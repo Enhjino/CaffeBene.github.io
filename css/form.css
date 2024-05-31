@@ -74,3 +74,37 @@ body {
   .social-icons i {
       margin-right: 15px;
   }
+
+/* 
+  @media only screen and (max-width: 600px) {
+    .sub-contents {
+      padding: 0.5rem;
+    }
+  
+    .form-wrapper {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .contact-form, .personal-form {
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+
+  
+  @media only screen and (max-height: 400px) {
+    .sub-contents {
+      padding: 0.5rem;
+    }
+  
+    .form-wrapper {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .contact-form, .personal-form {
+      max-width: 100%;
+      min-width: 100%;
+    }
+  } */
